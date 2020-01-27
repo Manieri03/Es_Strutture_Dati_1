@@ -15,7 +15,7 @@ namespace Es_Strutture_Dati_1
             using (StreamReader sr = new StreamReader("file.txt", Encoding.UTF8))
             {
                 string line;
-                while ((line = sr.ReadLine()) != null)
+                while ((line = sr.ReadLine()) != null )
                 {
                     double n = double.Parse(line);
                     numeri.Add(n);
